@@ -1,0 +1,72 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("picture.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.header{
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	background-color: black;
+	height: 80px;
+	display: flex;
+	align-items: center;
+}
+.header p{
+	margin-left: auto;
+	margin-right: 30px;
+	text-align: right;
+	color: white;
+	font-family: 'Tahoma', sans-serif;
+}
+.header img{
+	margin-left: 20px;
+	width: 50px;
+	float: left;
+	position: relative;
+}
+#titlez{
+	margin-top: 100px;
+	margin-left: 50px;
+	font-size: 150px;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-weight: bolder;
+}
+.content{
+	margin-top: -150px;
+	margin-left: 50px;
+	width: 1200px;
+	padding: 40px;
+	border-radius: 40px;
+	color: white;
+	background-color: black;
+	font-size: 25px;
+	font-family: 'Century Gothic', sans-serif;
+	text-align: justify;
+	line-height: 40px;
+	overflow: scroll;
+	height: 500px;
+}
+#source{
+	margin-left: 50px;
+	margin-top: 50px;
+	font-family: 'Tahoma', sans-serif;
+	font-size: 20px;
+	color: black;
+}
+#science, #tech, #engineering, #mathematics{
+	margin-right: 40px;
+	float: right;
+	width: 500px;
+	height: 180px;
+	border: 5px solid black;
+	border-radius: 40px;
+	display: block;
+	clear: both;
+	margin-top: 20px;
+}
