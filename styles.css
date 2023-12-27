@@ -29,11 +29,11 @@ body{
 	width: 50px;
 	float: left;
 	position: relative;
+	transition: filter 0.3s ease-in-out;
 }
 .header img:active {
   filter: brightness(0) invert(1);
 }
-
 #title{
 	margin-top: 300px;
 	margin-left: 50px;
