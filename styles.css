@@ -30,9 +30,10 @@ body{
 	float: left;
 	position: relative;
 }
-.header a:active{
-	background-color: white;
+.header img:active {
+  filter: brightness(0) invert(1);
 }
+
 #title{
 	margin-top: 300px;
 	margin-left: 50px;
