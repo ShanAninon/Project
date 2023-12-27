@@ -24,11 +24,13 @@ body{
 	color: white;
 	font-family: 'Tahoma', sans-serif;
 }
-.header .back{
+.header img{
 	margin-left: 20px;
 	width: 50px;
 	float: left;
 	position: relative;
+}
+.header .back{
 	transition: filter 0.3s ease-in-out;
 }
 .header .back:active {
